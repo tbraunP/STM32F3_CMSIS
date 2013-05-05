@@ -20,7 +20,7 @@ MEMORY
 /* The size of the stack used by the application. NOTE: you need to adjust*/
 STACK_SIZE = 1024;
 /* The size of the heap used by the application. NOTE: you need to adjust */
-HEAP_SIZE = 10*1024;
+HEAP_SIZE = 30*1024;
 
 SECTIONS {
 	.isr_vector : { 						/* the vector table goes FIRST into FLASH */
